@@ -65,9 +65,7 @@ body{
     background-color: rgba(0, 0, 0, 0.307);
     font-size: 24px;
     position: absolute;
-    top: ;
     left: 10px;
-    margin: ;
     padding: 10px;
     border-radius: 10px;
     opacity: 0;
@@ -96,6 +94,38 @@ body{
 .panel.active ul{
     opacity: 1;
     transition: opacity 0.5s ease-in 0.8s;
+}
+
+.panel table{
+    position: absolute;
+    top: 65%;
+    left: 4%;
+    opacity: 0;
+}
+.panel tr{
+    
+}
+
+.panel td{
+    background-size: auto 100%;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+    text-align: center;
+    
+}
+
+.panel.active table{
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.8s;
+}
+
+td:hover{
+    transform: scale(1.1);
+}
+li:hover{
+    transform: scale(1.1);
 }
 
 @media(max-width: 480px){
