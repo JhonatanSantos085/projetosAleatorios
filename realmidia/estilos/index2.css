@@ -55,19 +55,19 @@ h3{
 
 #filme{
     background-image: url(../imagens/filmes.webp);  
-    transition: 1.5s ease-out; 
+    transition: 1s ease-out; 
 }
 #serie{
     background-image: url(../imagens/series.jpg);
-    transition: 1.5s ease-out; 
+    transition: 1s ease-out; 
 }
 #anime{
     background-image: url(../imagens/animes.webp);
-    transition: 1.5s ease-out; 
+    transition: 1s ease-out; 
 }
 #jogo{
     background-image: url(../imagens/jogos.jfif);
-    transition: 1.5s ease-out; 
+    transition: 1s ease-out; 
 }
 
 #filme:hover{
