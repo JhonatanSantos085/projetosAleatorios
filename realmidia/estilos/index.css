@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    font-family: Times, serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#midia{
+    width: 100vh;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    position: relative;
+    background-color: blueviolet;
+    background-size: cover;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    color: white;
+    
+}
+
+h3{
+    background-color: rgba(137, 43, 226, 0.658);
+    position: relative;
+    width: 100px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+}
+
+section{
+    display: inline;
+}
+
+#filme{
+    background-image: url(../imagens/filmes.webp);  
+    transition: 1s ease; 
+}
+#serie{
+    background-image: url(../imagens/series.jpg);
+    transition: 1s ease; 
+}
+#anime{
+    background-image: url(../imagens/animes.webp);
+    transition: 1s ease; 
+}
+#jogo{
+    background-image: url(../imagens/jogos.jfif);
+    transition: 1s ease; 
+}
+
+#filme:hover{
+    box-shadow: 0px 0px 50px rgba(219, 15, 15, 0.821);
+    transform: scale(103%);
+}
+#serie:hover{
+    box-shadow: 0px 0px 50px rgb(186, 145, 0);
+    transform: scale(103%);  
+}
+#anime:hover{
+    box-shadow: 0px 0px 50px rgba(255, 255, 0, 0.511);
+    transform: scale(103%);
+}
+#jogo:hover{
+    box-shadow: 0px 0px 60px rgba(68, 117, 208, 0.725);
+    transform: scale(103%);
+}
