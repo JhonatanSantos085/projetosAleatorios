@@ -16,12 +16,12 @@ h1{
 }
 
 section{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    align-items: center;
 }
 
 #midia{
-    width: 100vh;
+    height: 100vh;
 
     position: absolute;
     top: 50%;
@@ -36,7 +36,7 @@ section{
     border-radius: 20px;
     width: 250px;
     height: 200px;
-    margin: 30px;
+    margin: 20px;
     text-align: center;
 
     color: white;
