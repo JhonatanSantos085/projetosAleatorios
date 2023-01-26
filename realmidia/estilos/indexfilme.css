@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.856);
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
